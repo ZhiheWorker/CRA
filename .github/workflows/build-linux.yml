@@ -29,7 +29,7 @@ jobs:
     
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile --name=league_server league_management_system/server/main.py
+        pyinstaller --onefile --name=league_server main.py
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
